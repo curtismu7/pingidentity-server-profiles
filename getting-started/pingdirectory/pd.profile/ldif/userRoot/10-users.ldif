@@ -1,4 +1,4 @@
-ddn: ou=People,dc=anycompany,dc=org
+dn: ou=People,dc=anycompany,dc=org
 objectClass: top
 objectClass: organizationalUnit
 ou: People
