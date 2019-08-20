@@ -1,17 +1,22 @@
-define suffix=${USER_BASE_DN}
-define maildomain=anycompany.org
-define numusers=${MAKELDIF_USERS}
+# Copyright 2018-2019 Ping Identity Corporation
+# All Rights Reserved.
+#
 
-branch: ou=benchy,[suffix]
-subordinateTemplate: benchy:[numusers]
+#
+# This file provides an example LDAP base entry for use with the Consent Service.
+# It may be loaded by running the following command:
+#
+#    ldapmodify --defaultAdd --filename consent-service-base-entries.ldif
+#
+# You should edit this file as needed to suit your environment.
+#
 
-template: benchy
-rdnAttr: uid
+#
+# The Consent Service base DN, which contains consent records.
+#
+dn: ou=consents,$USER_BASE_DN
 objectClass: top
-objectClass: person
-objectClass: uidObject
-uid: benchy.<sequential:0>
-sn: user
-cn: benchmark
-userPassword: 2FederateM0re
-description: This is the description for {uid}
+objectClass: organizationalUnit
+ou: consents
+
+
