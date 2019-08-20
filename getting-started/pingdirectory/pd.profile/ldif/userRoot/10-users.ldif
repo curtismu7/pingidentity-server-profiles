@@ -26479,51 +26479,48 @@ pwdChangedTime: 20190129140530.035Z
 creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
 entryUUID: 1f5a3793-e3eb-4dcd-bbfd-786e1e8981e1
 modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
-modifyTimestamp: 20190129140724.837Z
-
-dn: uid=cmuir\+pingidtest@pingidentity.com,ou=identities,dc=anycompany,dc=org
+dn: uid=user.0,ou=people,${USER_BASE_DN}
 objectClass: top
 objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: pf-connected-identities
-mail: cmuir+pingidtest@pingidentity.com
-sn: test
-cn: pingtest
-employeeType: FALSE
-mobile: 9725231586
-givenName: Ping
-pf-connected-identity: auth-source=pf-local-identity:user-id=cmuir+pingidtest@pingidentity.com
-businessCategory: Free
-userPassword: {SSHA256}j+7eRIveYzfftscWGpuQBqVDR83l+LKAGXmpvaZxSGCC6oK2DGjZZA==
-uid: cmuir+pingidtest@pingidentity.com
-createTimestamp: 20190226200253.391Z
-pwdChangedTime: 20190226200253.390Z
-creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
-modifyTimestamp: 20190226200253.391Z
-modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
-entryUUID: dd24096f-9786-49ee-8f5f-d2c48fc6d977
+objectClass: uidObject
+sn: Brooke
+cn: Raeann Brooke
+uid: user.0
+userPassword: 2FederateM0re
 
-dn: uid=test@pingide.com,ou=identities,dc=anycompany,dc=org
+dn: uid=user.1,ou=people,${USER_BASE_DN}
 objectClass: top
 objectClass: person
-objectClass: organizationalPerson
-objectClass: inetOrgPerson
-objectClass: pf-connected-identities
-mail: test@pingide.com
-sn: Muir
-cn: curtismu
-employeeType: FALSE
-mobile: 9725231586
-givenName: curtis
-pf-connected-identity: auth-source=pf-local-identity:user-id=test@pingide.com
-businessCategory: Free
-userPassword: {SSHA256}gzF4RJpCSS4/pMmw2hRwOZsPVASjBDtrHbYADwYQ0AxVoNt//7oquw==
-uid: test@pingide.com
-createTimestamp: 20190226201006.837Z
-pwdChangedTime: 20190226201006.837Z
-creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
-modifyTimestamp: 20190226201006.837Z
-modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
-entryUUID: 35b0cd56-1b99-476a-bdc9-6b55add1d690
+objectClass: uidObject
+sn: Seawell
+cn: Esko Seawell
+uid: user.1
+userPassword: 2FederateM0re
+
+dn: uid=user.2,ou=people,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: uidObject
+sn: Tancordo
+cn: Sidonia Tancordo
+uid: user.2
+userPassword: 2FederateM0re
+
+dn: uid=user.3,ou=people,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: uidObject
+sn: Knio
+cn: Pierre-Marc Knio
+uid: user.3
+userPassword: 2FederateM0re
+
+dn: uid=user.4,ou=people,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: uidObject
+sn: Psutka
+cn: Terza Psutka
+uid: user.4
+userPassword: 2FederateM0re
 
