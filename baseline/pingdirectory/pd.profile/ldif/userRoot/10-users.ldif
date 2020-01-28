@@ -52,9 +52,9 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-sn: Psutka
-cn: Terza Psutka
-uid: user.4
+sn: Muir
+cn: Curtis Muir
+uid: curtis
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=user.4
 
