@@ -53,8 +53,8 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
 sn: Muir
-cn: Curtis Muir
-uid: curtis
+cn: Sidonia Tancordo
+uid: user.4
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=user.4
 
